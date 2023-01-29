@@ -1,0 +1,22 @@
+/* Override default WP style */
+.categorydiv ul.categorychecklist li {
+  position: relative;
+}
+
+/* Base "categ-category" styles */
+.categ-category {
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+}
+.categ-category.categ-set-primary {
+  display: none;
+}
+
+/* Hover styles */
+.categorydiv li:hover .categ-category.categ-set-primary {
+  display: inline;
+}
+.categorydiv li:hover .categ-category.categ-unset-primary {
+  color: #dc3232;
+}
